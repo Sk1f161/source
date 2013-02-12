@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>****</title>
+    <link rel="stylesheet" href="media/style.css" type="text/css" media="screen">
+</head>
+
+<body>
+
+<div id="top">
+    <table id="table_top" width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td><div id="logo_sfedu"><br/><br/><a href="http://sfedu.ru/"><img src="media/logo.png" width="187" height="120" /></a></div></td>
+            <td width="100%" valign="top">
+                <table id="find_logo_uvc" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                            <!-- форма поиска -->
+                            <div  align="right" style="height:54px"><form id="formfind" action="#" method="get"><input class="finput" name="stringfind" type="text" size="15" maxlength="100" /><input class="fknopka" name="submit" type="submit" value="Найти" /></form></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center"><div id="logouvc"><br><table width="90%" border="0" cellspacing="0" cellpadding="0">
+                            <tr><td width="100%"><div id="namesite"><a href="index.html">Учебный военный центр ЮФУ</a></div></td>
+                                <td width="150"><div align="right"><a href="index.html"><img src="media/logo_uvc.png" width="99" height="100" /></a></div></td></tr>
+                        </table>
+                        </div></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+
+
+</div>
+<div id="center">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <!-- меню -->
+            <td valign="top" background="media/bg_menu.png"><div id="menu">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Абитуриенту</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Ссылка на страницу</a></li>
+                    <li><a href="#">Ссылка на страницу</a></li>
+                </ul>
+                &nbsp;
+            </div>
+
+            </td>
+            <!-- контент -->
+            <td valign="top" id="content">
+                {%  for post in posts %}
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.temistam }}</p>
+                    <p>{{ post.body }}</p>
+                {% endfor %}
+                <div id="news">
+                    <h2>Последние новости</h2>
+                    <ul>
+                        <li><a href="#">sss</a></li>
+                        <li><a href="#">sssss</a></li>
+                        <li><a href="#">Военная специальность: «Эксплуатация и ремонт наземной аппаратуры радиосвязи» на базе направлений подготовки </a></li>
+                        <ul>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<div id="bottom">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td><div id="bg_end_menu">&nbsp;</div></td>
+            <td width="100%" id="bottom_text"><p>&copy; 2013 Учебный военный центр ЮФУ</p></td>
+        </tr>
+    </table>
+
+
+</div>
+
+</body>
+</html>

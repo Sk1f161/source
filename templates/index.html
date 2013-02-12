@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{%  for post in posts %}
+<h2>{{ post.title }}</h2>
+<p>{{ post.temistam }}</p>
+<p>{{ post.body }}</p>
+{% endfor %}

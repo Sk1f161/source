@@ -1,0 +1,156 @@
+/* CSS Document */
+body{
+	margin:0px; 
+	font-family:Tahoma, Geneva, sans-serif; 
+	font-size:12pt; 
+	background:#443831;
+	
+	margin:0 auto;
+	/*min-width: 960px; 
+	max-width: 1280px; 
+	width: 100%;*/
+	width: 960px;
+	}
+img{
+	border:0px;
+	}
+/*верхняя часть*/	
+div#top{
+	display:block;
+	background:url(bg_to_line.png) repeat-x top;
+	height:200px;
+	}
+#logo_sfedu{
+	text-align:center;
+	display:block;
+	width:241px;
+	height:200px;
+	background:url(bg_logo_sfedu.png);
+	
+	}
+#formfind{
+	display:block;
+	padding:15px 15px 0 0;
+	margin:0;
+	width:300px;
+	}
+.finput{
+	margin-right:10px;
+	width:200px;
+	border:1px solid #6e564e;
+	background:#554640;
+	color:#FFF;
+}
+.fknopka{
+	border:1px solid #6e564e;	
+	background:#58433c;
+	color:#b4aba8;
+}
+#logouvc{
+	display:block;
+	height:140px;
+	/*background:#55453d;*/
+	background:url(bg_uvc.png);
+	border-right:9px solid #896e6a;
+	border-top:6px solid #896e6a;
+	}
+#namesite a{
+	font-size:22pt;
+	color:#FC0;
+	font-family:"Times New Roman", Times, serif;
+	text-decoration:none;
+	}
+#namesite a:hover{
+	text-decoration:underline;
+	}
+/* центральная часть*/
+div#center{
+	
+	
+	}	
+
+#menu{
+	display:block;
+	width:236px;
+	background:#554640;
+	
+	margin-left:5px;
+	}
+#menu ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	}
+#menu a{
+	display:block;
+	border:1px solid #6e564e;
+	padding:5px 0 5px 3px;
+	margin:2px;
+	background:#58433c;
+	color:#b4aba8;
+	text-decoration:none;
+	}
+#menu a:hover{
+	background:#81634E;
+	}
+#content{
+	background:#FFF;
+	width:100%;
+	border-right:9px solid #896e6a;
+	border-bottom:6px solid #896e6a;
+	padding:10px;
+	}
+h1{
+	font-size:17pt;	
+	margin:0px;
+	color:#716360;
+	padding-bottom:5px;
+	border-bottom:2px solid #ccc;
+}
+#content p{
+	margin-top: 0.5em; /* Îòñòóï ñâåðõó */
+	margin-bottom: 0.5em; /* Îòñòóï ñíèçó */ 
+	text-indent: 20px; 
+	font-size:14px;
+	color:#000;
+}
+#content a{
+	text-decoration:underline;
+	color:#8B5B49;
+}
+#content a:hover{
+	text-decoration:none;
+	color:#F00;	
+	}
+/* новости*/
+h2{
+	font-size:14pt;	
+	margin:0px;
+	color:#000;
+	padding-bottom:5px;
+}
+#news{
+	margin-top:35px;
+	margin-bottom:15px;
+}
+#news ul{
+	list-style-image:url(marker.png);
+}	
+/*подвал*/
+
+div#bottom{
+	
+
+	}	
+#bg_end_menu{
+	display:block;
+	width:241px;
+	height:40px;
+	margin-left:5px;
+	background:url(bg_end_menu.png) no-repeat;
+}
+#bottom_text{
+	text-align:center;
+	font-size:12px;
+	color:#AE7A62;
+}
